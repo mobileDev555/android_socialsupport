@@ -1367,6 +1367,7 @@ id checked
 id chronometer
 id clip_horizontal
 id clip_vertical
+id close_but
 id collapseActionView
 id confirm_btn
 id confirmation_code

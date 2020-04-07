@@ -165,49 +165,6 @@ public class ProfileActivity extends BaseActivity implements View.OnClickListene
                                 }
                             });
                         }
-//                        Query usersQuery = db.collection("Users");
-//                        usersQuery.addSnapshotListener(new EventListener<QuerySnapshot>() {
-//                            @Override
-//                            public void onEvent(QuerySnapshot queryDocumentSnapshots, final FirebaseFirestoreException e) {
-//                                if (queryDocumentSnapshots != null) {
-//                                    if (!queryDocumentSnapshots.isEmpty()) {
-//                                        for (DocumentChange doc: queryDocumentSnapshots.getDocumentChanges()) {
-//                                            if (doc.getType() == DocumentChange.Type.ADDED) {
-//                                                final String userId = doc.getDocument().getId();
-//                                                if(userId.equals(mAuth.getCurrentUser().getUid())) continue;
-//
-//                                                db.collection("Users").document(userId).get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
-//                                                    @Override
-//                                                    public void onComplete(@NonNull Task<DocumentSnapshot> task) {
-//                                                        if (task.isSuccessful()) {
-//                                                            if (task.getResult().exists()) {
-//                                                                String name = task.getResult().getString("username");
-//                                                                String image = task.getResult().getString("photo");
-//                                                                String email = task.getResult().getString("email");
-//                                                                String socialtype = task.getResult().getString("socialtype");
-//                                                                String password = task.getResult().getString("password");
-//                                                                String friendList = task.getResult().getString("friendList");
-//                                                                String socialTies = task.getResult().getString("socialTies");
-//Log.e("===========ties", socialTies);
-//                                                                if(mineFriendList.contains(userId)) {
-//                                                                    User user = new User(userId, image, name, socialtype, email, password, friendList, socialTies);
-//                                                                    userList.add(user);
-//                                                                }
-//
-//                                                                adapter= new MyRecyclerAdapter(userList, null);
-//                                                                friend_list_view.setAdapter(adapter);
-//
-//                                                                adapter.notifyDataSetChanged();
-//                                                            }
-//                                                        }
-//                                                    }
-//                                                });
-//                                            }
-//                                        }
-//                                    }
-//                                }
-//                            }
-//                        });
                     }
                 }
             }

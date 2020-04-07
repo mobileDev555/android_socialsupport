@@ -23,10 +23,15 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentChange;
+import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.EventListener;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.FirebaseFirestoreException;
@@ -35,7 +40,10 @@ import com.google.firebase.firestore.QuerySnapshot;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.my.socialstress.utils.Global;
+import com.my.socialstress.utils.MyFriendRecyclerAdapter;
+import com.my.socialstress.utils.MyRecyclerAdapter;
 import com.my.socialstress.utils.QuizDbHelper;
+import com.my.socialstress.utils.User;
 import com.my.socialstress.utils.Utils;
 
 import org.json.JSONArray;
@@ -45,6 +53,8 @@ import org.json.JSONObject;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
+import java.util.Random;
 
 public class DassActivity extends BaseActivity implements View.OnClickListener {
     private View mainView;
@@ -52,6 +62,7 @@ public class DassActivity extends BaseActivity implements View.OnClickListener {
     private TextView q_txt, q_count_txt;
     private RadioGroup rbGroup;
     private RadioButton rb1, rb2, rb3, rb4, rb5;
+    private ImageView back_img;
 
     private int score;
     private boolean answered = false;
@@ -61,6 +72,11 @@ public class DassActivity extends BaseActivity implements View.OnClickListener {
     private String currentQuestion;
     private String json;
 
+    List<String> name_arr = new ArrayList<>();
+    List<String> image_arr = new ArrayList<>();;
+    List<String> email_arr = new ArrayList<>();;
+    int index = 0;
+
     public StorageReference storageReference;
     private FirebaseFirestore db;
     private FirebaseAuth mAuth;
@@ -69,10 +85,14 @@ public class DassActivity extends BaseActivity implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        try {
+            this.getSupportActionBar().hide();
+        } catch (NullPointerException e){}
         setContentView(R.layout.screen_dass);
 
-        mainView = findViewById(R.id.mainView);
-        Global.hideSystemUI(mainView);
+//        mainView = findViewById(R.id.mainView);
+//        Global.hideSystemUI(mainView);
 
         initFirebase();
         initJSONData();
@@ -107,6 +127,8 @@ public class DassActivity extends BaseActivity implements View.OnClickListener {
     private void initUI() {
         continue_btn = findViewById(R.id.continue_but);
         continue_btn.setOnClickListener(this);
+        back_img = findViewById(R.id.back_img);
+        back_img.setOnClickListener(this);
         q_txt = findViewById(R.id.q_txt);
         q_count_txt = findViewById(R.id.q_count_txt);
 
@@ -137,6 +159,9 @@ public class DassActivity extends BaseActivity implements View.OnClickListener {
         switch (id) {
             case R.id.continue_but:
                 continueQuiz();
+                break;
+            case R.id.back_img:
+                finish();
                 break;
         }
     }
@@ -297,7 +322,6 @@ public class DassActivity extends BaseActivity implements View.OnClickListener {
                 String radio_str = "";
                 if(radio_strong.isChecked()) radio_str = (String) radio_strong.getText();
                 else if(radio_weak.isChecked()) radio_str = (String) radio_weak.getText();
-
                 searchMatchingFriend(chk_str, radio_str);
             }
         });
@@ -305,37 +329,71 @@ public class DassActivity extends BaseActivity implements View.OnClickListener {
         dialog.show();
     }
 
-    private void searchMatchingFriend(String chk_str, String radio_str) {
-
-        showProgressDialog();
-        Query usersQuery = db.collection("Users")
-                .whereEqualTo("socialtype", chk_str)
-                .whereEqualTo("socialTies", radio_str);
-        usersQuery.addSnapshotListener(new EventListener<QuerySnapshot>() {
+    private void searchMatchingFriend(final String chk_str, final String radio_str) {
+        index = 0;
+        db.collection("Users").document(mAuth.getCurrentUser().getUid()).get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
             @Override
-            public void onEvent(QuerySnapshot queryDocumentSnapshots, FirebaseFirestoreException e) {
-                hideProgressDialog();
-                if (queryDocumentSnapshots != null) {
-                    if (!queryDocumentSnapshots.isEmpty()) {
-                        for (DocumentChange doc : queryDocumentSnapshots.getDocumentChanges()) {
-                            if (doc.getType() == DocumentChange.Type.ADDED) {
-                                String username = doc.getDocument().getString("username");
-                                String photo = doc.getDocument().getString("photo");
-                                String email = doc.getDocument().getString("email");
+            public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+                if (task.isSuccessful()) {
+                    if (task.getResult().exists()) {
+                        final String mineFriendList = task.getResult().getString("friendList");
+                        final String socialTies = task.getResult().getString("socialTies");
 
-                                showFriendDialog(username, photo, email);
+                        if (mineFriendList.equals("")) return;
 
+                        final String[] f_arr = mineFriendList.split(",");
+                        String[] t_arr = socialTies.split(",");
+                        final boolean[] isExist = {false};
+                        for(int i=0; i< f_arr.length; i++) {
+                            final String userId = f_arr[i].trim();
+                            final String ties = t_arr[i].trim();
+
+                            if(ties.equals(radio_str)) {
+                                db.collection("Users").document(userId).get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
+                                    @Override
+                                    public void onComplete(@NonNull Task<DocumentSnapshot> task) {
+                                        if (task.isSuccessful()) {
+                                            if (task.getResult().exists()) {
+                                                String name = task.getResult().getString("username");
+                                                String image = task.getResult().getString("photo");
+                                                String email = task.getResult().getString("email");
+                                                String socialtype = task.getResult().getString("socialtype");
+                                                String password = task.getResult().getString("password");
+
+                                                if (chk_str.equals(socialtype)) {
+                                                    Log.e("====friends", chk_str+"||"+socialtype);
+                                                    isExist[0] = true;
+                                                    name_arr.add(name);
+                                                    image_arr.add(image);
+                                                    email_arr.add(email);
+                                                }
+
+                                            }
+                                        }
+                                    }
+                                });
                             }
                         }
-                    } else {
-                        Toast.makeText(DassActivity.this, "No search result", Toast.LENGTH_LONG).show();
-//                        startActivity(new Intent(DassActivity.this, MainActivity.class));
-                        finish();
+                        final Handler handler = new Handler();
+                        final Runnable r = new Runnable() {
+                            public void run() {
+                                if(isExist[0]) {
+                                    int num = name_arr.size();
+                                    Random r = new Random();
+                                    int num_index = r.nextInt(num);
+                                    showFriendDialog(name_arr.get(num_index), image_arr.get(num_index), email_arr.get(num_index));
+                                    return;
+                                } else {
+                                    finish();
+                                }
+                                handler.postDelayed(this, 1000);
+                            }
+                        };
+                        handler.postDelayed(r, 1000);
                     }
                 }
             }
         });
-
     }
 
     private void showFriendDialog(String username, String photo, final String email) {
@@ -361,6 +419,14 @@ public class DassActivity extends BaseActivity implements View.OnClickListener {
                 dialog.dismiss();
                 String msg = msg_edit.getText().toString();
                 requireHelp(msg, email);
+            }
+        });
+        Button close_btn = (Button) dialog.findViewById(R.id.close_but);
+        close_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dialog.dismiss();
+                finish();
             }
         });
 
