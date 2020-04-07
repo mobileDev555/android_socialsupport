@@ -8,6 +8,10 @@
     android:orientation="vertical"
     android:background="@color/white"
     tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -46,8 +50,8 @@
             android:visibility="gone"
             android:orientation="horizontal">
             <FrameLayout
-                android:layout_width="80dp"
-                android:layout_height="80dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:layout_margin="5dp"
                 android:layout_gravity="center">
                 <ImageView
@@ -64,15 +68,22 @@
                 android:id="@+id/friend_txt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_weight="0.2"
                 android:layout_margin="10dp"
+                android:layout_gravity="center"
                 android:textSize="15dp"
                 android:textColor="@color/blue"
                 android:text="Ivan Slavtsov"/>
+            <ImageView
+                android:id="@+id/cancel_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:src="@drawable/ic_close_black_24dp" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:orientation="vertical">
             <com.hsalf.smilerating.SmileRating
                 android:id="@+id/ratingView"
@@ -89,19 +100,43 @@
             android:layout_weight="0.2"
             android:layout_marginTop="10dp"
             android:background="@drawable/default_round_blur"
-            android:orientation="horizontal">
-            <TextView
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/pre_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_navigate_before_blue_24dp"/>
+                <TextView
+                    android:id="@+id/chart_title_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:text="Daily Checkins\n(current week)"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorYellowDark"
+                    android:gravity="center"
+                    android:textSize="16dp"/>
+                <ImageView
+                    android:id="@+id/cur_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_sync_black_24dp"/>
+            </LinearLayout>
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/barChart"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Line Chart here"
-                android:textSize="20dp"
-                android:textStyle="bold"
-                android:textColor="@color/blue"
-                android:gravity="center"/>
+                android:layout_marginBottom="5dp" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="80dp"
             android:layout_marginTop="10dp"
             android:orientation="horizontal">
             <TextView
@@ -142,4 +177,5 @@
                 android:background="@drawable/default_round_gray"/>
         </LinearLayout>
     </LinearLayout>
+    </ScrollView>
 </LinearLayout>

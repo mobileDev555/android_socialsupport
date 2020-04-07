@@ -1198,12 +1198,15 @@ drawable fui_idp_button_background_twitter
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_arrow_back_black_24dp
+drawable ic_close_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_navigate_before_blue_24dp
 drawable ic_spinner_arrow_blue
+drawable ic_sync_black_24dp
 drawable icn_photo_border
 drawable icon_arrow
 drawable icon_back
@@ -1335,6 +1338,7 @@ id always
 id async
 id auto
 id back_img
+id barChart
 id barrier
 id beginning
 id blocking
@@ -1350,12 +1354,14 @@ id button_create
 id button_done
 id button_next
 id cancel_action
+id cancel_img
 id center
 id centerCrop
 id centerInside
 id center_horizontal
 id center_vertical
 id chains
+id chart_title_txt
 id checkbox
 id checked
 id chronometer
@@ -1380,6 +1386,7 @@ id crop_image_menu_flip_horizontally
 id crop_image_menu_flip_vertically
 id crop_image_menu_rotate_left
 id crop_image_menu_rotate_right
+id cur_img
 id custom
 id customPanel
 id dark
@@ -1501,6 +1508,7 @@ id phone_button
 id phone_layout
 id phone_number
 id pin
+id pre_img
 id progress_bar
 id progress_circular
 id progress_horizontal

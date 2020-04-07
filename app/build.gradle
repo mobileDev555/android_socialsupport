@@ -50,5 +50,8 @@ dependencies {
     implementation 'com.google.firebase:firebase-messaging:19.0.1'
     implementation "com.google.firebase:firebase-database:19.2.0"
     implementation 'com.google.android.gms:play-services-auth:17.0.0'
+
+//    implementation 'com.github.PhilJay:MPAndroidChart:v2.2.4'
+    implementation 'com.github.Philjay:MPAndroidChart:v3.1.0'
 }
 apply plugin: 'com.google.gms.google-services'

@@ -11,6 +11,8 @@ public class Global {
     public static final String PREF_NAME = "socialstress";
     public static final String EMAIL = "email";
     public static final String PASSWORD = "password";
+    public static final String EMOJI = "emoji";
+    public static final String DAYWEEK = "dayofweek";
     public static final String SOCIALTYPE = "social_type";
     public static final String COUNT = "count";
     public static final String TOKEN = "token";

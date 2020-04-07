@@ -332,6 +332,8 @@ public class RegisterActivity extends BaseActivity implements View.OnClickListen
         userMap.put("photo", downloadUri.toString());
         userMap.put("friendList", "");
         userMap.put("socialTies", "");
+        userMap.put("pre_mood", "0,0,0,0,0,0,0");
+        userMap.put("cur_mood", "0,0,0,0,0,0,0");
 
         db.collection("Users").document(userId).set(userMap).addOnCompleteListener(new OnCompleteListener<Void>() {
             @Override

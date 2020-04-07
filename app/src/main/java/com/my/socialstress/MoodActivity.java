@@ -11,6 +11,7 @@ import android.text.method.HideReturnsTransformationMethod;
 import android.text.method.PasswordTransformationMethod;
 import android.util.Log;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.LinearLayout;
@@ -74,10 +75,11 @@ public class MoodActivity extends BaseActivity implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        try {
+            this.getSupportActionBar().hide();
+        } catch (NullPointerException e){}
         setContentView(R.layout.screen_mood);
-
-        mainView = findViewById(R.id.mainView);
-        Global.hideSystemUI(mainView);
 
         initFirebase();
         initJSONData();

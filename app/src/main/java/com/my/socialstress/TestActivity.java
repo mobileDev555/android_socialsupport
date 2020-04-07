@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
@@ -47,6 +48,7 @@ public class TestActivity extends BaseActivity implements View.OnClickListener {
     private TextView q_txt, q_count_txt;
     private RadioGroup rbGroup;
     private RadioButton rb1, rb2, rb3, rb4, rb5;
+    private ImageView back_img;
 
     private int score;
     boolean answered = false;
@@ -65,6 +67,9 @@ public class TestActivity extends BaseActivity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
+        try {
+            this.getSupportActionBar().hide();
+        } catch (NullPointerException e){}
         setContentView(R.layout.screen_test);
 
         mainView = findViewById(R.id.mainView);
@@ -102,6 +107,8 @@ public class TestActivity extends BaseActivity implements View.OnClickListener {
     private void initUI() {
         continue_btn = findViewById(R.id.continue_but);
         continue_btn.setOnClickListener(this);
+        back_img = findViewById(R.id.back_img);
+        back_img.setOnClickListener(this);
         q_txt = findViewById(R.id.q_txt);
         q_count_txt = findViewById(R.id.q_count_txt);
 
@@ -118,6 +125,9 @@ public class TestActivity extends BaseActivity implements View.OnClickListener {
         switch (id) {
             case R.id.continue_but:
                 continueQuiz();
+                break;
+            case R.id.back_img:
+                finish();
                 break;
         }
     }
@@ -204,6 +214,7 @@ public class TestActivity extends BaseActivity implements View.OnClickListener {
                     "        “Low scorers tend to be calm, relaxed, secure, and hardy.”";
         }
         AlertDialog.Builder builder = new AlertDialog.Builder(TestActivity.this);
+        builder.setCancelable(false);
         builder.setTitle("Message")
                 .setMessage(msg)
                 .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
