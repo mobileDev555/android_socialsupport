@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Social Support</string>
+
+    <string name="test_q_1">Question-1</string>
+    <string name="test_q_2">Question-2</string>
+    <string name="test_q_3">Question-3</string>
+    <string name="test_q_4">Question-4</string>
+    <string name="test_q_5">Question-5</string>
+    <string name="test_q_6">Question-6</string>
+
+    <string name="chk_1_1">Disagree strongly</string>
+    <string name="chk_1_2">Disagree moderately</string>
+    <string name="chk_1_3">Neutral</string>
+    <string name="chk_1_4">Agree moderately</string>
+    <string name="chk_1_5">Agree strongly</string>
+
+
+    <string name="q1">Question-1</string>
+    <string name="q2">Question-2</string>
+    <string name="q3">Question-3</string>
+    <string name="q4">Question-4</string>
+    <string name="q5">Question-5</string>
+    <string name="q6">Question-6</string>
+    <string name="q7">Question-7</string>
+    <string name="q8">Question-8</string>
+    <string name="q9">Question-9</string>
+    <string name="q10">Question-10</string>
+
+    <string name="a1">Disagree strongly</string>
+    <string name="a2">Disagree moderately</string>
+    <string name="a3">Neutral</string>
+    <string name="a4">Agree moderately</string>
+    <string name="a5">Agree strongly</string>
+
+</resources>

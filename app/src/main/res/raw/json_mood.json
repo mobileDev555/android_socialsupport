@@ -1,0 +1,24 @@
+{
+  "title": "register",
+  "QA":
+  [
+    {
+      "question": "I was moving and walking more slowly than usual."
+    },
+    {
+      "question": " I found it hard to think properly or concentrate."
+    },
+    {
+      "question": "I didn’t have any fun in any of my activities."
+    },
+    {
+      "question": "I didn’t sleep as well as I usually sleep."
+    },
+    {
+      "question": " I didn’t sleep as well as I usually sleep."
+    },
+    {
+      "question": "I cried a lot."
+    }
+  ]
+}

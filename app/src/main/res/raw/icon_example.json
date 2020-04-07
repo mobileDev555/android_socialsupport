@@ -1,0 +1,18 @@
+{
+    "title": "register",
+    "QA":
+    [
+        {
+          "question": "Question-1"
+        },
+        {
+          "question": "Question-2"
+        },
+        {
+          "question": "Question-3"
+        },
+        {
+          "question": "Question-4"
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "814162831635",
+    "firebase_url": "https://reclaim-f576a.firebaseio.com",
+    "project_id": "reclaim-f576a",
+    "storage_bucket": "reclaim-f576a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814162831635:android:9c813f59f79c7bdef152e6",
+        "android_client_info": {
+          "package_name": "com.my.reclaim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814162831635-bu746ft71bqlrcbhvbc14spvis87rsm3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAodxfbOiv2ugbQNZVOdnt8VQklKeQzWps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814162831635-bu746ft71bqlrcbhvbc14spvis87rsm3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814162831635:android:12d31b550604d890f152e6",
+        "android_client_info": {
+          "package_name": "com.my.socialstress"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814162831635-bu746ft71bqlrcbhvbc14spvis87rsm3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAodxfbOiv2ugbQNZVOdnt8VQklKeQzWps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814162831635-bu746ft71bqlrcbhvbc14spvis87rsm3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

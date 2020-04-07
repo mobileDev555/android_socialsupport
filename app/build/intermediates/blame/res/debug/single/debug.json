@@ -1,0 +1,410 @@
+[
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_default_layout.xml.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\default_layout.xml"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_key.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\icon_key.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_check_false.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\icon_check_false.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_default_round_gray.xml.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\default_round_gray.xml"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_default_gradient.xml.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\default_gradient.xml"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\layout_screen_register.xml.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\layout\\screen_register.xml"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\raw_icon_example.json.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\raw\\icon_example.json"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\layout_friend_list_add_item.xml.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\layout\\friend_list_add_item.xml"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\raw_json_test.json.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\raw\\json_test.json"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_search.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\icon_search.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_name1.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\icon_name1.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_key1.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\icon_key1.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_arrow_back_black_24dp.xml.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_arrow_back_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_share.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\icon_share.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_name.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\icon_name.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_radio_on.xml.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\radio_on.xml"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_red.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\icon_red.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_search1.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\icon_search1.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_avatar_user.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\avatar_user.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_radio_off.xml.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\radio_off.xml"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_x.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\icon_x.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_default_round_yellow.xml.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\default_round_yellow.xml"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\color_radio_flat_text_selector.xml.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\color\\radio_flat_text_selector.xml"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\layout_screen_profile.xml.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\layout\\screen_profile.xml"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_search_w.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\icon_search_w.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_email.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\icon_email.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\raw_json_mood.json.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\raw\\json_mood.json"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\layout_social_spinner_item.xml.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\layout\\social_spinner_item.xml"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_arrow_back_black_24dp.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_arrow_back_black_24dp.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_arrow_back_black_24dp.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_arrow_back_black_24dp.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_default_round_blur.xml.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\default_round_blur.xml"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_eye_show_w.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\icon_eye_show_w.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_arrow_back_black_24dp.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_arrow_back_black_24dp.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_default_round.xml.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\default_round.xml"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\layout_match_friend_dialog.xml.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\layout\\match_friend_dialog.xml"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_splash3.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\bg_splash3.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_plus_1.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\icon_plus_1.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_phone1.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\icon_phone1.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cancel_white.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\cancel_white.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_save_white.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\save_white.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\raw_json_dass.json.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\raw\\json_dass.json"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_arrow.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\icon_arrow.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_phone.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\icon_phone.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_card_front.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\card_front.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\layout_screen_login.xml.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\layout\\screen_login.xml"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_default_round_5.xml.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\default_round_5.xml"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_spinner_arrow_blue.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\ic_spinner_arrow_blue.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icn_photo_border.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\icn_photo_border.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_default_round_10.xml.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\default_round_10.xml"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\layout_screen_mood.xml.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\layout\\screen_mood.xml"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_logout2.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\icon_logout2.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_pre.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\icon_pre.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_radio_flat_regular.xml.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\radio_flat_regular.xml"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\layout_screen_dass.xml.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\layout\\screen_dass.xml"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_plus2.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\icon_plus2.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\layout_match_input_dialog.xml.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\layout\\match_input_dialog.xml"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_logout1.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\icon_logout1.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\layout_screen_test.xml.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\layout\\screen_test.xml"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_eye_hide_w.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\icon_eye_hide_w.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_check_true.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\icon_check_true.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_pass.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\icon_pass.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_default_textview.xml.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\default_textview.xml"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_plus1.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\icon_plus1.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_radio_bg.xml.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\radio_bg.xml"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_radio_flat_selected.xml.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\radio_flat_selected.xml"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_load.gif.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\load.gif"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_back.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\icon_back.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\layout_friend_list_item.xml.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\layout\\friend_list_item.xml"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\layout_screen_splash.xml.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\layout\\screen_splash.xml"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_lock.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\icon_lock.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\layout_screen_add_friend.xml.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\layout\\screen_add_friend.xml"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_plus.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\icon_plus.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_item.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\bg_item.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_logout.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\icon_logout.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_arrow_back_black_24dp.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_arrow_back_black_24dp.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_radio_flat_selector.xml.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\radio_flat_selector.xml"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_arrow_back_black_24dp.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_arrow_back_black_24dp.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_main.xml.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_forward.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable\\icon_forward.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_arrow_back_black_24dp.png.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_arrow_back_black_24dp.png"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\layout_screen_online.xml.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\layout\\screen_online.xml"
+    },
+    {
+        "merged": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "E:\\Work-6\\Malaysia_socialsupport_android\\SocialSupport\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    }
+]

@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.my.reclaim.activities.ActivitySearch">
+    <item
+        android:id="@+id/action_profile"
+        android:orderInCategory="100"
+        android:title="Delete item"
+        android:icon="@drawable/avatar_user"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="Delete item"
+        android:icon="@drawable/icon_logout1"
+        app:showAsAction="always" />
+</menu>

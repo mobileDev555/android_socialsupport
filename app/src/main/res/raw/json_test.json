@@ -1,0 +1,36 @@
+{
+  "title": "register",
+  "QA":
+  [
+    {
+      "question": "I see myself as extraverted, enthusiastic."
+    },
+    {
+      "question": "I see myself as critical, quarrelsome."
+    },
+    {
+      "question": "I see myself as dependable, self-disciplined."
+    },
+    {
+      "question": "I see myself as anxious, easily upset"
+    },
+    {
+      "question": "I see myself as open to new experiences, complex."
+    },
+    {
+      "question": "I see myself as reserved, quiet."
+    },
+    {
+      "question": "I see myself as sympathetic, warm."
+    },
+    {
+      "question": "I see myself as disorganized, careless."
+    },
+    {
+      "question": "I see myself as calm, emotionally stable."
+    },
+    {
+      "question": "I see myself as conventional, uncreative."
+    }
+  ]
+}
